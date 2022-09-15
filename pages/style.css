@@ -61,12 +61,11 @@ button:hover{
   .foto img{
     height: 100%;
     width: 100%;
-    -webkit-transition: -webkit-transform .5s ease;
-    transition: transform .5s ease;
+    
   }
   .foto:hover img{
-  -webkit-transform: scale(1.05);
-   transform: scale(1.05);
+   transition-duration: 0.5s; 
+   transform: scale(1.05, 1.05);
   }
 
   .fundo{
