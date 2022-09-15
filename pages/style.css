@@ -93,7 +93,8 @@ button:hover{
     height: 700px;
 }
 .texto{
+  color: white;
   display: flex;
-  padding-top: 40px;
+  padding-top: 250px;
   
 }
