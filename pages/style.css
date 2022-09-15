@@ -48,29 +48,48 @@ button:hover{
     height: 50px;
     justify-content: center;
   }
-  .foto{
+  .imagens{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+  }
+  .foto1{
+    position: relative;
     height: 300px;
     width: 500px;
     display: flex;
+    justify-content: space-around;
     overflow: hidden;
-    justify-content: start;
-    flex-direction: column;
-    padding: 20px
-    
   }
-  .foto img{
+  .foto1 img{
     height: 100%;
     width: 100%;
-    
   }
-  .foto:hover img{
+  .foto1:hover img{
    transition-duration: 0.5s; 
    transform: scale(1.05, 1.05);
   }
+  .foto2{
+    position: relative;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+  }
+  .foto2 img{
+    height: 100%;
+    width: 100%;
+  }
+  .foto2:hover img{
+    transition-duration: 1s;
+    transform: scale(1.05, 1.05);
+  }
 
   .fundo{
-    position: relative;
     display: flex;
+    flex-direction: column;
     background: rgb(250, 174, 4);
     height: 700px;
   }
