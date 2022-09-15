@@ -48,8 +48,30 @@ button:hover{
     height: 50px;
     justify-content: center;
   }
-
   .foto{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    overflow: hidden;
+    justify-content: start;
+    flex-direction: column;
+    padding: 20px
+    
+  }
+  .foto img{
+    height: 100%;
+    width: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+  }
+  .foto:hover img{
+  -webkit-transform: scale(1.05);
+   transform: scale(1.05);
+  }
+
+  .fundo{
+    position: relative;
+    display: flex;
     background: rgb(250, 174, 4);
     height: 700px;
   }
