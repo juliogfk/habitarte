@@ -6,9 +6,9 @@
    
 .menu{
     width: 100vw;
-    position: fixed;
-    top: 0;
-    left:0;
+    position: fixed; /* deixa o head travado em cima da página*/
+    top: 0; /* não tira o header de cima*/
+    left:0; /* não tira o header do lado esquerdo*/
     display: flex;
     justify-content: space-between;
     background-color: rgb(250, 174, 4);
