@@ -1,0 +1,100 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times;
+    margin: 0;
+    padding: 0;
+}
+   
+.menu{
+    width: 100vw;
+    position: fixed; /* deixa o head travado em cima da página*/
+    top: 0; /* não tira o header de cima*/
+    left:0; /* não tira o header do lado esquerdo*/
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 174, 4);
+    padding-bottom: 2px;
+}
+
+.titulo{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.lista{
+    display: flex;
+    justify-content:space-between;
+    padding-right: 300px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+.lista li{
+    width: 200px;
+    font-size: 20px;
+
+  }
+.lista li button{
+    border: none;
+    box-shadow: 0px 0px 3px 3px white;
+    font-size: large;
+    height: 80px;
+    width: 150px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(250, 174, 4);
+    color: black;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: rgb(15, 15, 15);
+    color: white;
+}  
+.menu .lista li{
+    display: flex;
+    margin-left: 30px;
+    height: 50px;
+    justify-content: center;
+}
+.imagens{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+}
+.foto{
+    border-radius: 10px;
+    position: relative;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    overflow: hidden;
+}
+.foto img{
+    height: 100%;
+    width: 100%;
+}
+.foto:hover img{
+   transition-duration: 0.5s; 
+   transform: scale(1.1);
+}
+
+.fundo{
+    display: flex;
+    background: rgb(250, 174, 4);
+    height: 700px;
+}
+.texto{
+  width: 700px ;
+  color: black;
+  font-size: 1.2em;
+  display: flex;
+  padding-top: 250px;
+  padding-right: 25px;
+  padding-left: 40px;
+  line-height: 30px;
+}
+
