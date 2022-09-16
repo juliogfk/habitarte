@@ -31,12 +31,12 @@
     padding-bottom: 20px;
     padding-top: 10px;
   }
-.lista li{
+.lista .item{
     width: 200px;
     font-size: 20px;
 
   }
-.lista li button{
+.lista .item button{
     border: none;
     box-shadow: 0px 0px 3px 3px white;
     font-size: large;
@@ -52,7 +52,7 @@ button:hover{
     background-color: rgb(15, 15, 15);
     color: white;
 }  
-.menu .lista li{
+.menu .lista .item{
     display: flex;
     margin-left: 30px;
     height: 50px;
