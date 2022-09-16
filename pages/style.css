@@ -1,15 +1,22 @@
-body{
+*{
     font-family: Georgia, 'Times New Roman', Times;
-}    
+    margin: 0;
+    padding: 0;
+}
+   
 .menu{
     width: 100vw;
+    position: fixed;
+    top: 0;
+    left:0;
     display: flex;
     justify-content: space-between;
-    background: rgb(250, 174, 4);
+    background-color: rgb(250, 174, 4);
     padding-bottom: 2px;
 }
 
 .titulo{
+    margin-top: 120px;
     display: flex;
     justify-content: center;
     font-size: 60px;
@@ -22,6 +29,7 @@ ul{
     justify-content:space-between;
     padding-right: 100px;
     padding-bottom: 20px;
+    padding-top: 10px;
   }
 ul li{
     width: 200px;
@@ -29,18 +37,22 @@ ul li{
 
   }
 ul li button{
-    border-color: white;
+    border: none;
+    box-shadow: 0px 0px 3px 3px white;
     font-size: large;
     height: 80px;
     width: 150px;
     padding-bottom: 5px;
     border-radius: 10px;
     background-color: rgb(250, 174, 4);
-    color: white
+    color: black;
+    transition: 0.5s;
+    
     
 }
 button:hover{
     background-color: rgb(15, 15, 15);
+    color: white;
 }  
 .menu ul li{
     display: flex;
@@ -55,7 +67,7 @@ button:hover{
     position: relative;
     padding: 20px;
 }
-.foto1{
+.foto{
     border-radius: 10px;
     position: relative;
     height: 300px;
@@ -63,39 +75,28 @@ button:hover{
     display: flex;
     overflow: hidden;
 }
-.foto1 img{
+.foto img{
     height: 100%;
     width: 100%;
 }
-.foto1:hover img{
+.foto:hover img{
    transition-duration: 0.5s; 
-   transform: scale(1.05, 1.05);
+   transform: scale(1.1);
 }
-.foto2{
-    border-radius: 10px;
-    position: relative;
-    height: 250px;
-    width: 500px;
-    display: flex;
-    overflow: hidden;
-}
-.foto2 img{
-    height: 100%;
-    width: 100%;
-  }
-.foto2:hover img{
-    transition-duration: 1s;
-    transform: scale(1.05, 1.05);
-}
+
 .fundo{
     display: flex;
     background: rgb(250, 174, 4);
     height: 700px;
 }
 .texto{
-  color: white;
+  width: 700px ;
+  color: black;
+  font-size: 1.2em;
   display: flex;
   padding-top: 250px;
   padding-right: 25px;
-  
+  padding-left: 40px;
+  line-height: 30px;
 }
+
