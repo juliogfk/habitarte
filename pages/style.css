@@ -27,7 +27,7 @@
 ul{
     display: flex;
     justify-content:space-between;
-    padding-right: 100px;
+    padding-right: 300px;
     padding-bottom: 20px;
     padding-top: 10px;
   }
@@ -47,8 +47,6 @@ ul li button{
     background-color: rgb(250, 174, 4);
     color: black;
     transition: 0.5s;
-    
-    
 }
 button:hover{
     background-color: rgb(15, 15, 15);
