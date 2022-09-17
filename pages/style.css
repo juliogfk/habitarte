@@ -61,7 +61,6 @@ button:hover{
 .imagens{
     display: flex;
     position: relative;
-    padding: 20px;
 }
 .foto{
     display: flex;
@@ -71,6 +70,7 @@ button:hover{
     width: 350px;
     display: flex;
     overflow: hidden;
+    padding-top: 100px;
     padding-left: 100px;
 }
 .foto img{
