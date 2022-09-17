@@ -1,7 +1,7 @@
 *{
     font-family: Georgia, 'Times New Roman', Times;
-    margin: 0;
-    padding: 0;
+    margin: 0; /* ocupa todo o campo da pagina*/
+    padding: 0; /* ocupa todo o campo da pagina*/
 }
    
 .menu{
@@ -64,7 +64,6 @@ button:hover{
 }
 .foto{
     display: flex;
-    border-radius: 10px;
     position: relative;
     height: 250px;
     width: 350px;
@@ -74,6 +73,9 @@ button:hover{
     padding-left: 100px;
 }
 .foto img{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
     height: 100%;
     width: 100%;
 }
@@ -83,6 +85,7 @@ button:hover{
 }
 
 .fundo{
+    position: relative;
     display: flex;
     background: rgb(250, 174, 4);
     height: 700px;
