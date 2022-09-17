@@ -60,18 +60,18 @@ button:hover{
 }
 .imagens{
     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
     position: relative;
     padding: 20px;
 }
 .foto{
+    display: flex;
     border-radius: 10px;
     position: relative;
-    height: 300px;
-    width: 500px;
+    height: 200px;
+    width: 300px;
     display: flex;
     overflow: hidden;
+    padding-left: 100px;
 }
 .foto img{
     height: 100%;
