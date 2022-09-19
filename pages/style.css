@@ -2,6 +2,7 @@
     font-family: Georgia, 'Times New Roman', Times;
     margin: 0; /* ocupa todo o campo da pagina*/
     padding: 0; /* ocupa todo o campo da pagina*/
+    text-decoration: none;
 }
    
 .menu{
@@ -82,6 +83,22 @@ button:hover{
 .foto:hover img{
    transition-duration: 0.5s; 
    transform: scale(1.1);
+}
+#texto_img{
+    position: relative; top:-100px;
+    left: -10px;
+    padding: 0px;
+    color: #fff;
+    line-height: 100px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    font-size: 60px;
+}
+.foto:hover #texto_img{
+    transition: 0.5s;
+    opacity: 1;
 }
 
 .fundo{
