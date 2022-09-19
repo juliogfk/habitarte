@@ -23,14 +23,14 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-ul{
+#botoes{
     display: flex;
     justify-content:space-between;
     padding-right: 300px;
     padding-bottom: 20px;
     padding-top: 10px;
 }
-ul li{
+#botoes li{
     width: 200px;
     font-size: 20px;
 
@@ -81,20 +81,22 @@ button:hover{
    transition-duration: 0.5s; 
    transform: scale(1.1);
 }
-#texto_img{
+#nome_img{
     position: relative; 
     top:-100px; 
-    left: -10px;
+    left: 20px;
     padding: 0px;
     color: #fff;
+    border-radius: 20px;
     line-height: 100px;
+    width: 300px;
     background-color: #333;
     display: flex;
     justify-content: center;
     opacity: 0;
     font-size: 60px;
 }
-.foto:hover #texto_img{
+.foto:hover #nome_img{
     transition: 0.5s;
     opacity: 1;
 }
@@ -104,14 +106,3 @@ button:hover{
     background: rgb(250, 174, 4);
     height: 800px;
 }
-.texto{
-  width: 700px ;
-  color: black;
-  font-size: 1.2em;
-  display: flex;
-  padding-top: 250px;
-  padding-right: 25px;
-  padding-left: 40px;
-  line-height: 30px;
-}
-
