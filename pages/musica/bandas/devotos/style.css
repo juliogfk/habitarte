@@ -24,14 +24,14 @@
     padding-bottom: 20px;
 }
 
-ul{
+#botoes{
     display: flex;
     justify-content:space-between;
     padding-right: 300px;
     padding-bottom: 20px;
     padding-top: 10px;
   }
-ul li{
+#botoes li{
     width: 200px;
     font-size: 20px;
 
