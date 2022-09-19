@@ -59,16 +59,15 @@ button:hover{
     justify-content: center;
 }
 .imagens{
+    position: relative;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    position: relative;
     padding: 20px;
 }
 .foto{
-    border-radius: 10px;
     position: relative;
-    height: 300px;
+    height: 700px;
     width: 500px;
     display: flex;
     overflow: hidden;
@@ -87,7 +86,7 @@ button:hover{
     display: flex;
     position: relative;
     background: rgb(250, 174, 4);
-    height: 700px;
+    height: 800px;
 }
 .texto{
   width: 700px ;
