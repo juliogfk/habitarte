@@ -103,13 +103,25 @@ button:hover{
     background: rgb(250, 174, 4);
     height: 800px;
 }
-
 .rodape{
-    background-color: rgb(237, 227, 199);
+    background-color: rgb(47, 47, 47);
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding-top: 100px;
-    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 400wh;
+    color: white;   
+}
+.rodape_itens {
+    display: flex;
+    flex-direction:column;
+    padding-right: 380px ;
+}
+.info_1{
+    line-height: 100px;
+}
+.rodape_itens a{
+    padding-left: 30px;
+    color: #fff;
 }
 
