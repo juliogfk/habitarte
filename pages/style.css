@@ -103,3 +103,13 @@ button:hover{
     background: rgb(250, 174, 4);
     height: 800px;
 }
+
+.rodape{
+    background-color: rgb(237, 227, 199);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    height: 400px;
+}
+
